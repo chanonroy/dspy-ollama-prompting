@@ -1,5 +1,10 @@
 import dspy
+from TextExtraction import FindTerms
 
-ollama_llama3 = dspy.OllamaLocal(model='llama3:latest')
+llama3 = dspy.OllamaLocal(model='llama3:latest')
 
-result = ollama_llama3("tell me about interstellar's plot")
+dspy.settings.configure(lm=llama3)
+
+module = FindTerms()
+response = module("Their jaws and wallets will drop to the floor. Watch out for the godfather.")
+print(response)    
