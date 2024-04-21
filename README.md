@@ -18,3 +18,10 @@ poetry run python dspy_ollama_example
 ## Theoretical overview
 
 - Stands for Demonstrate, search, predict (Python)
+
+## Chains
+
+Why chains?
+
+- Overcomes input length and context limitations
+- Chains overcome overly complex tasks
