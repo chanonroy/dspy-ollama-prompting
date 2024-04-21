@@ -1,3 +1,7 @@
+# DSPy x Llama3 (via Ollama)
+
+Exploration of declarative prompt training for Llama 3
+
 ## Install poetry with pipx
 
 ```sh
@@ -10,3 +14,7 @@ pipx install poetry
 ```sh
 poetry run python dspy_ollama_example
 ```
+
+## Theoretical overview
+
+- Stands for Demonstrate, search, predict (Python)
